@@ -1,0 +1,52 @@
+header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 55px;
+  width: 100%;
+  background: #973c00;
+  color: white;
+}
+
+.header_btn {
+  height: 55px;
+  width: 55px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__title {
+  margin-left: 10px;
+}
+
+.add_btns {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.add_btns .btn {
+  width: 95px;
+  height: 30px;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(0, 132, 255) 0%,
+    rgb(0, 132, 255),
+    rgb(0, 100, 245) 100%
+  );
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+
+.add_btns .btn:hover {
+  background: rgb(0, 100, 245);
+}
+
+.add_btns .btn:active {
+  background: rgb(0, 50, 245);
+}

@@ -1,0 +1,50 @@
+.unit_time-weathers {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 60px;
+
+  background: rgba(0, 0, 0, 0.2);
+  margin: 10px 0;
+  font-size: 14px;
+}
+
+.unit_time-weather {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.unit_time-weather > span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: gold;
+  width: 50px;
+  font-size: 17px;
+  height: 100%;
+}
+
+.unit_time-weather > span:after {
+  content: "℃";
+  color: white;
+  font-size: 10px;
+}
+
+.unit_time-weather:last-child > span:after {
+  content: " %";
+  color: white;
+  font-size: 10px;
+}
+
+.unit_time-weathers .time {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin-right: 5px;
+}
+
+.unit_time-weathers .time span:last-child {
+  color: gold;
+}

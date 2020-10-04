@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/14eec0ad7c.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <title>날씨정보</title>
+  </head>
+  <body>
+    <div class="screen">
+      <span>윈도우 사이즈를 줄여주세요.</span>
+    </div>
+    <div class="box">
+      <header>
+        <!-- <div class="header_btn">
+          <i class="fas fa-bars fa-2x"></i>
+        </div> -->
+        <div class="header__title">
+          <h3>글로벌 날씨</h3>
+        </div>
+      </header>
+
+      <div class="add_btns">
+        <button class="btn" value="1835847">서울</button>
+        <button class="btn" value="1850144">도쿄</button>
+        <button class="btn" value="2634715">워싱턴</button>
+        <button class="btn" value="1816670">베이징</button>
+        <button class="btn" value="323784">앙카라</button>
+      </div>
+
+      <section>
+        <div class="top_info">
+          <article class="mini_weather">
+            <h4>인천</h4>
+            <span class="mini_weather__Temperature">10</span>
+            <div class="mini_weather__info">
+              <div class="mini_weather__column">
+                <span>바람방향:9.2㎧</span>
+                <span>불쾌지수: -</span>
+              </div>
+              <div class="mini_weather__column">
+                <span>습도:67%</span>
+                <span>강수량:0.0mm</span>
+              </div>
+            </div>
+          </article>
+          <article class="eather_imge">
+            <span>흐림</span>
+            <img src="" alt="" />
+          </article>
+        </div>
+
+        <div class="unit_time-weathers">
+          <div class="unit_time-weather">
+            <div class="time">
+              <span>현재</span>
+              <span>온도</span>
+            </div>
+            <span>10도</span>
+          </div>
+          <div class="unit_time-weather">
+            <div class="time">
+              <span>체감</span>
+              <span>온도</span>
+            </div>
+            <span>10도</span>
+          </div>
+          <div class="unit_time-weather">
+            <div class="time">
+              <span>최저</span>
+              <span>온도</span>
+            </div>
+            <span>10도</span>
+          </div>
+          <div class="unit_time-weather">
+            <div class="time">
+              <span>최고</span>
+              <span>온도</span>
+            </div>
+            <span>10도</span>
+          </div>
+          <div class="unit_time-weather">
+            <div class="time">
+              <span>흐림</span>
+              <span>정도</span>
+            </div>
+            <span>10도</span>
+          </div>
+        </div>
+
+        <!-- <div class="content">
+          <div class="date">
+            <div class="left_text">날짜</div>
+            <div class="date__boxs content_width">
+              <div>
+                <span>오늘</span>
+                <span>10/23(일)</span>
+              </div>
+              <div>
+                <span></span>
+                <span>-</span>
+              </div>
+              <div>
+                <span></span>
+                <span>-</span>
+              </div>
+              <div>
+                <span></span>
+                <span>-</span>
+              </div>
+              <div>
+                <span></span>
+                <span>-</span>
+              </div>
+            </div>
+          </div>
+          <div class="time">
+            <div class="left_text">시간</div>
+            <div class="time_boxs content_width">
+              <div><span>10시</span></div>
+              <div><span>10시</span></div>
+              <div><span>10시</span></div>
+              <div><span>10시</span></div>
+              <div><span>10시</span></div>
+            </div>
+          </div>
+          <div class="weather">
+            <div class="left_text">날씨</div>
+            <div class="weathers content_width">
+              <div>
+                <img src="images/구름.png" alt="" /><span>구름 많음</span>
+              </div>
+              <div>
+                <img src="images/구름.png" alt="" /><span>구름 많음</span>
+              </div>
+              <div>
+                <img src="images/구름.png" alt="" /><span>구름 많음</span>
+              </div>
+              <div>
+                <img src="images/구름.png" alt="" /><span>구름 많음</span>
+              </div>
+              <div>
+                <img src="images/구름.png" alt="" /><span>구름 많음</span>
+              </div>
+            </div>
+          </div>
+          <div class="temperature">
+            <div class="left_text">기온</div>
+            <div class="temperatures content_width">
+              <div><span>13℃</span></div>
+              <div><span>13℃</span></div>
+              <div><span>13℃</span></div>
+              <div><span>13℃</span></div>
+              <div><span>13℃</span></div>
+            </div>
+          </div>
+          <div class="precipitation-probability">
+            <div class="left_text">강수확률</div>
+            <div class="precipitation-probabilitys content_width">
+              <div><span>20%</span></div>
+              <div><span>20%</span></div>
+              <div><span>20%</span></div>
+              <div><span>20%</span></div>
+              <div><span>20%</span></div>
+            </div>
+          </div>
+          <div class="precipitation-volume">
+            <div class="left_text">강수량</div>
+            <div class="precipitation-volumes content_width">
+              <div><span>-</span></div>
+              <div><span>-</span></div>
+              <div><span>-</span></div>
+              <div><span>-</span></div>
+              <div><span>-</span></div>
+            </div>
+          </div>
+          <div class="humidity">
+            <div class="left_text">습도</div>
+            <div class="humiditys content_width">
+              <div><span>70%</span></div>
+              <div><span>70%</span></div>
+              <div><span>70%</span></div>
+              <div><span>70%</span></div>
+              <div><span>70%</span></div>
+            </div>
+          </div>
+          <div class="wind">
+            <div class="left_text">바람</div>
+            <div class="winds content_width">
+              <div><span>북동</span></div>
+              <div><span>북동</span></div>
+              <div><span>북동</span></div>
+              <div><span>북동</span></div>
+              <div><span>북동</span></div>
+            </div>
+          </div>
+        </div> -->
+      </section>
+
+      <div id="map"></div>
+    </div>
+    <script
+      async
+      defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA2pnRFADe9uv6OX79eZDo7caw4O5x7InQ"
+    ></script>
+    <script src="js/style.js"></script>
+  </body>
+</html>

@@ -1,0 +1,81 @@
+.content {
+  width: 540px;
+  background: rgba(0, 0, 0, 0.2);
+  color: white;
+}
+
+.content .left_text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: rgba(0, 0, 0, 0.2);
+
+  width: 70px;
+  font-size: 13px;
+}
+
+.content > div {
+  display: flex;
+  height: 50px;
+}
+
+.content .date .left_text {
+  color: tomato;
+}
+
+.date__boxs {
+  display: flex;
+  justify-content: space-around;
+  width: 470px;
+}
+
+.content .time .time_boxs span {
+  font-size: 20px;
+}
+
+.content .content_width {
+  display: flex;
+}
+
+.content .content_width div {
+  display: flex;
+  width: 94px;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.content .date .date__boxs div {
+  display: flex;
+  flex-direction: column;
+}
+
+.content .weather {
+  height: 100px;
+}
+
+.content .weather .left_text {
+  color: tomato;
+}
+
+.content .weather .weathers div {
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+}
+
+.content .weather .weathers img {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.content .temperature .temperatures {
+  color: tomato;
+  font-size: 30px;
+}
+
+.content .precipitation-probability .precipitation-probabilitys {
+  color: rgb(51, 255, 0);
+}
